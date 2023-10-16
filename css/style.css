@@ -1,0 +1,48 @@
+.background{
+    background-image: url(../test3.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bird{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+.bird2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {right: 0;}
+  to {right: 1500px;}
+}
+
+
+
+.sun{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    animation:mymovesun 30s infinite;
+    animation-timing-function: linear;
+}
+@keyframes mymovesun {
+    from {left: 20px;}
+    to {left: 2000px;}
+  }
+  
+div{
+    display: block;
+}
+
